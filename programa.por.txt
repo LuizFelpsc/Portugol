@@ -1,0 +1,33 @@
+programa
+{
+	funcao inicio ()
+	{
+		escreva("1 Escolher Restaurante\n")
+		escreva("2 Ir Para o Restaurante\n")
+		escreva("3 Escolher a Mesa\n")
+		escreva("4 Peça o Cardápio\n")
+		escreva("5 Escolha o Prato\n")
+		escreva("6 Fazer Pedido\n")
+		escreva("7 Esperar o Prato\n")
+		//Não esqueçer da Gorjeta
+		escreva("8 Comer\n")
+		escreva("9 Pedir a Conta\n")
+		//Pagar com cartão da itau
+		escreva("10 Pagar a Conta\n")
+		escreva("11 Ir Embora\n")
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
