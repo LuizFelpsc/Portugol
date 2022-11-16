@@ -1,10 +1,10 @@
-Algoritmo "ClassificaçãoIdade"
-//Classificação De Uma Idade Quanto a Criança, Adolescente, Adulto, Idoso.
+Algoritmo "ClassificaÃ§Ã£oIdade"
+//ClassificaÃ§Ã£o De Uma Idade Quanto a CrianÃ§a, Adolescente, Adulto, Idoso.
 
 Var
 //Entrada: anoNasc, anoAtual
 //Processamento: Calculo De Idade
-//Saída: Clsssificação Da Idade
+//SaÃ­da: ClsssificaÃ§Ã£o Da Idade
 anoNasc, anoAtual, idade:inteiro
 nome:caracter
 Inicio
@@ -14,34 +14,35 @@ leia(nome)
 escreval("Digite Seu Ano De Nascimento")
 leia(anoNasc)
 
-anoAtual<-2022
+escreval("Digite o Ano Atual:")
+leia(anoAtual)
 
 idade<-anoAtual-anoNasc
 
-escreval("Sua Idade é:")
+escreval("Sua Idade Ã©:")
 escreval(idade)
 
 se (idade<=12) entao
 //Verdadeiro
-escreval(nome,", Você e Uma Criança")
+escreval(nome,", VocÃª e Uma CrianÃ§a")
 
 //falso
 senao
 se (idade>12) e (idade<18) entao
 //Verdadeiro
-escreval(nome,", Você e Adolescente")
+escreval(nome,", VocÃª e Adolescente")
 
 //falso
 senao
 se (idade>=18) e (idade<60) entao
 //Verdadeiro
-escreval(nome,", Você e Adulto")
+escreval(nome,", VocÃª e Adulto")
 
 //falso
 senao
 se (idade>60) entao
 //Verdadeiro
-escreval(nome,", Você e Idoso")
+escreval(nome,", VocÃª e Idoso")
 
 
 
@@ -52,7 +53,7 @@ fimse
 
 
 //Conectivos E e ou
-//Se Menor Que 12 Anos e Criança
+//Se Menor Que 12 Anos e CrianÃ§a
 //Se Maior Que 12 e Menor 18 Adolescente
 //Se Maior Ou Igual 18 e Menor Que 60 Adulto
 //Se Maior Que 60 Adulto
