@@ -19,7 +19,7 @@ leia(anoAtual)
 
 idade<-anoAtual-anoNasc
 
-escreval("Sua Idade é:")
+escreval(nome,", Sua Idade é:")
 escreval(idade)
 
 se (idade<=12) entao
